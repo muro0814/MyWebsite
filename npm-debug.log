@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '-http',
+1 verbose cli   '-server' ]
+2 warn invalid config https-proxy="-server"
+3 warn invalid config Must be a full url with 'http://'
+4 info using npm@3.10.10
+5 info using node@v7.3.0
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readGlobalPackageData
+9 silly fetchPackageMetaData .
+10 silly fetchOtherPackageData .
+11 silly cache add args [ '.', null ]
+12 verbose cache add spec .
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: '.',
+13 silly cache add   scope: null,
+13 silly cache add   escapedName: null,
+13 silly cache add   name: null,
+13 silly cache add   rawSpec: '.',
+13 silly cache add   spec: 'C:\\Users\\muro0\\murad',
+13 silly cache add   type: 'local' }
+14 error addLocal Could not install C:\Users\muro0\murad
+15 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+15 silly fetchPackageMetaData  error for . { Error: EISDIR: illegal operation on a directory, read errno: -4068, code: 'EISDIR', syscall: 'read' }
+16 silly rollbackFailedOptional Starting
+17 silly rollbackFailedOptional Finishing
+18 silly runTopLevelLifecycles Finishing
+19 silly install printInstalled
+20 verbose stack Error: EISDIR: illegal operation on a directory, read
+21 verbose cwd C:\Users\muro0\murad
+22 error Windows_NT 10.0.14393
+23 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "-http" "-server"
+24 error node v7.3.0
+25 error npm  v3.10.10
+26 error code EISDIR
+27 error errno -4068
+28 error syscall read
+29 error eisdir EISDIR: illegal operation on a directory, read
+30 error eisdir This is most likely not a problem with npm itself
+30 error eisdir and is related to npm not being able to find a package.json in
+30 error eisdir a package you are trying to install.
+31 verbose exit [ -4068, true ]
